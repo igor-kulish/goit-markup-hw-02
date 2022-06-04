@@ -2,15 +2,17 @@
 :root {
   --general-text-color: #212121;
   --accent-colour: #2196f3;
+  --hero-addres-button-text-color: #ffffff;
+  --paragraph-text-color: #757575;
+  --footer-auth-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   background-color: #e5e5e5;
-  
 }
 /* list-style none - убирает точки в списках */
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 /* Site nav */
@@ -18,8 +20,13 @@ body {
   color: var(--general-text-color);
 }
 
+/* Убирает подчеркивание */
+.link {
+  text-decoration: none;
+}
+
 .site-nav .link:hover,
-.site-nav .link:focus, 
+.site-nav .link:focus,
 .site-nav .current {
   color: var(--accent-colour);
 }
