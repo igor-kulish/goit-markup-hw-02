@@ -1,0 +1,27 @@
+/* Стили для index.html */
+:root {
+  --general-text-color: #212121;
+  --accent-colour: #2196f3;
+}
+
+body {
+  background-color: #e5e5e5;
+  
+}
+/* list-style none - убирает точки в списках */
+.list {
+    list-style: none;
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--general-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus, 
+.site-nav .current {
+  color: var(--accent-colour);
+}
+
+/* Section */
