@@ -5,7 +5,9 @@
   --hero-addres-button-text-color: #ffffff;
   --paragraph-text-color: #757575;
   --footer-auth-text-color: rgba(255, 255, 255, 0.6);
+  --header-background-color: #ffffff;
   --footer-background-color: #2f303a;
+  --portfolio-button-background: #f5f4fa;
 }
 
 /* *Общие стили body */
@@ -42,12 +44,11 @@ body {
   color: var(--accent-colour);
 }
 
-.header-logo:hover,
-.header-logo:focus {
-  color: var(--accent-colour);
+/* *Site nav Header */
+.top-line {
+  background-color: var(--header-background-color);
 }
 
-/* *Site nav */
 .site-nav .link {
   color: var(--general-text-color);
   font-weight: 500;
@@ -101,12 +102,14 @@ body {
   cursor: pointer;
 }
 
+.button-hero:hover,
 .button-hero:focus,
 .button-hero:active {
+  background-color: var(--hero-addres-button-text-color);
+  color: var(--accent-colour);
 }
 
 /* *Секция Особенности */
-
 .features-list .title {
   color: var(--general-text-color);
   font-weight: 700;
@@ -117,6 +120,10 @@ body {
 }
 
 /* *Секция Чем мы занимаемся, Наша команда */
+.our-team {
+  background-color: #f5f4fa;
+}
+
 .section-work .title,
 .our-team .title {
   color: var(--general-text-color);
@@ -161,11 +168,6 @@ body {
   color: var(--hero-addres-button-text-color);
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
-  color: var(--hero-addres-button-text-color);
-}
-
 .footer-address {
   color: var(--hero-addres-button-text-color);
   letter-spacing: 0.03em;
@@ -182,4 +184,37 @@ body {
 .footer-auth .link-footer:hover,
 .footer-auth .link-footer:focus {
   color: var(--accent-colour);
+}
+
+/* *Portfolio стилизация */
+.section-portfolio .button {
+  color: var(--general-text-color);
+  background-color: var(--portfolio-button-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: var(--accent-colour);
+  color: var(--hero-addres-button-text-color);
+}
+
+.portfolio-project-list .title {
+  color: var(--general-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-project-list .text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
