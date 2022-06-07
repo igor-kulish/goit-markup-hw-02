@@ -16,7 +16,6 @@ body {
   background-color: #e5e5e5;
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  line-height: 1.71;
 }
 
 /* *list-style none - убирает точки в списках */
@@ -96,6 +95,8 @@ body {
 .button-hero {
   color: var(--hero-addres-button-text-color);
   background-color: var(--accent-colour);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -170,12 +171,14 @@ body {
 
 .footer-address {
   color: var(--hero-addres-button-text-color);
+  line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
 }
 
 .link-footer {
   color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
@@ -190,6 +193,8 @@ body {
 .section-portfolio .button {
   color: var(--general-text-color);
   background-color: var(--portfolio-button-background);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
